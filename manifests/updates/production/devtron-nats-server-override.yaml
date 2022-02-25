@@ -12,7 +12,7 @@ data:
     update:
       spec:
         template:
-          spec 
+          spec: 
             containers:
             - resources:
                 limits: 
