@@ -6,12 +6,11 @@ metadata:
 data:
   override: |
     apiVersion: apps/v1
-    kind: NatsCluster
+    kind: StatefulSet
     metadata:
       name: devtron-nats
     update:
       spec:
-        size: 3
         template:
           spec 
             containers:
